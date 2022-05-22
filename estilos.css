@@ -343,6 +343,9 @@ nav img {
     .us {
         flex-direction: column;
     }
+    .us img {
+        margin: auto;
+    }
 }
 
 
