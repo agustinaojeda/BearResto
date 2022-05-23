@@ -136,6 +136,9 @@ nav img {
 }
 
 @media(max-width: 1000px) {
+    nav {
+        padding: 2.5%;
+    }
     .home {
         display: none;
     }
