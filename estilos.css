@@ -12,7 +12,7 @@ body {
 
 /* header */
 
-header {
+.headerindex {
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(184, 184, 184, 0.204), rgba(4, 9, 30, 0.204)), url(images/shots.gif);
@@ -244,7 +244,7 @@ nav img {
     height: 90vh;
     background: fixed no-repeat 50% 50%;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/sushi.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/sushi.png);
     position: relative;
 }
 
@@ -406,4 +406,114 @@ nav img {
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
+}
+
+
+/* MENU */
+
+
+/* header */
+
+.headermenu {
+    min-height: 80vh;
+    width: 100%;
+    background: fixed no-repeat;
+    background-image: linear-gradient(rgba(60, 60, 60, 0.411), rgba(58, 58, 58, 0.236)), url(images/asianfood.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-bottom-style: dotted;
+    border-bottom-color: #f5f5f5;
+    border-bottom-width: 3px;
+}
+
+
+/*section*/
+
+.recomendados h1 {
+    padding: 2%;
+    font-size: 35px;
+    color: #222222;
+}
+
+
+/*menu*/
+
+.menutitulo {
+    padding: 20px;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.tipos {
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.tipos h4 {
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #2222225a;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.tipos .active,
+.tipos h4:hover {
+    color: #222222;
+}
+
+.cartaactiva {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.carta {
+    display: none;
+}
+
+.items {
+    padding-left: 5%;
+    padding-right: 5;
+}
+
+.comida {
+    padding: 1px;
+    font-size: 20px;
+    font-weight: 650;
+    text-transform: uppercase;
+}
+
+.descripcion {
+    max-width: 400px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+@media(max-width: 1000px) {
+    .cartaactiva {
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .items {
+        padding: 0;
+    }
+    .comida {
+        font-size: 25px;
+    }
+    .descripcion {
+        font-size: 20px;
+    }
 }
