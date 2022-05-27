@@ -597,3 +597,22 @@ nav img {
         font-weight: 650;
     }
 }
+
+
+/* RESERVAR */
+
+
+/*header*/
+
+.reservarhead {
+    min-height: 80vh;
+    width: 100%;
+    background: fixed no-repeat;
+    background-image: linear-gradient(rgba(60, 60, 60, 0.411), rgba(58, 58, 58, 0.236)), url(images/mesa.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-bottom-style: dotted;
+    border-bottom-color: #f5f5f5;
+    border-bottom-width: 3px;
+}
