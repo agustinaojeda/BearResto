@@ -576,6 +576,9 @@ nav img {
 }
 
 @media(max-width: 1000px) {
+    .ubic {
+        width: 900px;
+    }
     .mapa {
         flex-direction: column;
         margin: auto;
