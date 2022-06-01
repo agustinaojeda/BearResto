@@ -626,10 +626,12 @@ nav img {
 /*formulario*/
 
 .reservar {
-    width: 100vh;
+    width: 100%;
 }
 
 .formulario {
+    font-size: 22px;
+    font-weight: 500;
     width: min-content;
     margin-top: 50px;
     margin-left: 20%;
@@ -639,7 +641,8 @@ nav img {
 
 .formulario input,
 .formulario select {
-    padding: 0.7%;
+    font-size: 15px;
+    padding: 1%;
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 30px;
@@ -647,8 +650,10 @@ nav img {
 }
 
 .formulario button {
-    padding: 0.7%;
+    font-size: 15px;
+    padding: 1%;
     width: 100px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     margin-inline-start: 80%;
 }
