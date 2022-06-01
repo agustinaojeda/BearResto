@@ -408,6 +408,11 @@ nav img {
     padding: 10px;
 }
 
+.pie a {
+    text-decoration: none;
+    color: #f5f5f5af;
+}
+
 
 /* MENU */
 
