@@ -29,6 +29,47 @@
         </div>
     </header>
 
+    <section>
+
+        <article class="reservar">
+            <form class="formulario">
+
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" placeholder="Escribe aqui" required>
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" placeholder="(Codigo de area) Numero" maxlength="20" required>
+
+                <label for="email">Email (opcional)</label>
+                <input type="email" id="email" placeholder="ejemplo@email.com">
+
+                <label for="cant">Cantidad de personas</label>
+                <input type="number" id="cant" min="1" max="30" placeholder="Numero" required>
+
+                <label for="fecha">Fecha de reserva</label>
+                <input type="date" id="fecha" required>
+
+                <label for="hora">Hora de reserva</label>
+                <select id="hora" required>
+                    <option value="0" selected disabled>Seleccione una hora</option>
+                    <option value="1">11:00</option>
+                    <option value="2">12:00</option>
+                    <option value="3">13:00</option>
+                    <option value="4">14:00</option>
+                    <option value="5">20:00</option>
+                    <option value="6">21:00</option>
+                    <option value="7">22:00</option>
+                    <option value="8">23:00</option>
+
+                </select>
+
+                <button type="submit">Reservar</button>
+
+            </form>
+        </article>
+
+    </section>
+
 </body>
 
 </html>
