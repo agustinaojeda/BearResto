@@ -420,7 +420,7 @@ nav img {
 /* header */
 
 .headermenu {
-    min-height: 80vh;
+    min-height: 90vh;
     width: 100%;
     background: fixed no-repeat;
     background-image: linear-gradient(rgba(60, 60, 60, 0.411), rgba(58, 58, 58, 0.236)), url(images/asianfood.png);
@@ -530,7 +530,7 @@ nav img {
 /*header*/
 
 .headerdir {
-    min-height: 80vh;
+    min-height: 90vh;
     width: 100%;
     background: fixed no-repeat;
     background-image: linear-gradient(rgba(60, 60, 60, 0.411), rgba(58, 58, 58, 0.236)), url(images/buenosaires.png);
@@ -610,7 +610,7 @@ nav img {
 /*header*/
 
 .reservarhead {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     background: fixed no-repeat;
     background-image: linear-gradient(rgba(60, 60, 60, 0.411), rgba(58, 58, 58, 0.236)), url(images/mesa.png);
