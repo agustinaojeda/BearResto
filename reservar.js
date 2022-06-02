@@ -1,3 +1,5 @@
+//carrusel
+
 const imagenes = new Array();
 imagenes[0] = document.getElementById('uno');
 imagenes[1] = document.getElementById('dos');
@@ -25,7 +27,7 @@ derecha.onclick = function() {
 
 }
 
-izquierda.onclick = function() {
+izquierda.onclick = function izqui() {
     contador--;
 
     if (contador < 0) {
