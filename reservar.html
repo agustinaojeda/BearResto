@@ -32,25 +32,28 @@
     <section>
 
         <article class="reservar">
-            <form class="formulario">
+            <h1 class="titulo">Completá el formulario para reservar tu lugar</h1>
+            <div class="flex">
+                <div>
+                    <form class="formulario">
 
-                <label for="nombre">Nombre y Apellido</label>
-                <input type="text" id="nombre" placeholder="Escribe aqui" required>
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" id="nombre" placeholder="Escribe aquí" required>
 
-                <label for="telefono">Telefono</label>
-                <input type="tel" id="telefono" placeholder="(Codigo de area) Numero" maxlength="20" required>
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" placeholder="(Código de área) Número" maxlength="20" required>
 
-                <label for="email">Email (opcional)</label>
-                <input type="email" id="email" placeholder="ejemplo@email.com">
+                        <label for="email">Email (opcional)</label>
+                        <input type="email" id="email" placeholder="ejemplo@email.com">
 
-                <label for="cant">Cantidad de personas</label>
-                <input type="number" id="cant" min="1" max="30" placeholder="Numero" required>
+                        <label for="cant">Cantidad de personas</label>
+                        <input type="number" id="cant" min="1" max="30" placeholder="Número" required>
 
-                <label for="fecha">Fecha de reserva</label>
-                <input type="date" id="fecha" required>
+                        <label for="fecha">Fecha de reserva</label>
+                        <input type="date" id="fecha" required>
 
-                <label for="hora">Hora de reserva</label>
-                <select id="hora" required>
+                        <label for="hora">Hora de reserva</label>
+                        <select id="hora" required>
                     <option value="0" selected disabled>Seleccione una hora</option>
                     <option value="1">11:00</option>
                     <option value="2">12:00</option>
@@ -63,9 +66,24 @@
 
                 </select>
 
-                <button type="submit">Reservar</button>
+                        <button type="submit">Reservar</button>
 
-            </form>
+                    </form>
+                </div>
+                <div class="carrusel">
+                    <div class="imagen">
+                        <img src="images/carrusel1.png" class="vista" id="uno" alt="">
+                        <img src="images/carrusel2.png" class="oculto" id="dos" alt="">
+                        <img src="images/carrusel3.png" class="oculto" id="tres" alt="">
+                        <img src="images/carrusel4.png" class="oculto" id="cuatro" alt="">
+                        <img src="images/carrusel5.png" class="oculto" id="cinco" alt="">
+                    </div>
+                    <div class="flechas">
+                        <img src="images/izquierda.png" id="izq" alt="">
+                        <img src="images/derecha.png" id="der" alt="">
+                    </div>
+                </div>
+            </div>
         </article>
 
     </section>
@@ -80,6 +98,7 @@
         </div>
     </footer>
 
+    <script src="reservar.js"></script>
 </body>
 
 </html>
