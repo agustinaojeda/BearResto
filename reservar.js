@@ -47,7 +47,7 @@ function enviar() {
     if (validar() == true) {
         let nombre = document.getElementById('nombre');
         let telefono = document.getElementById('telefono');
-        //let email = document.getElementById('email');
+        let email = document.getElementById('email');
         let personas = document.getElementById('cant');
         let fecha = document.getElementById('fecha');
         let hora = document.getElementById('hora');
@@ -58,7 +58,7 @@ function enviar() {
 
         nombre.value = "";
         telefono.value = "";
-        //email.value = "";
+        email.value = "";
         personas.value = "";
         fecha.value = "";
         hora.value = 0;
