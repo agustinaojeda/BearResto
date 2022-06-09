@@ -649,8 +649,14 @@ nav img {
     margin-left: 30px;
     width: 500px;
     border-radius: 10px;
-    border-color: #ff6183b9;
+    border: 2px inset #ff6183b9;
     background-color: #ffffff;
+}
+
+.formulario label {
+    font-size: 22px;
+    font-weight: 500;
+    color: #222222;
 }
 
 .formulario select {
@@ -666,7 +672,7 @@ nav img {
     padding: 1%;
     width: 170px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-inline-start: 80%;
     border-radius: 10px;
     border-color: #ff61839f;
@@ -677,6 +683,36 @@ nav img {
 .formulario button:hover {
     background-color: #ffbcca;
     letter-spacing: 2px;
+}
+
+.lista {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.error li {
+    margin-top: 10px;
+    margin-left: 30px;
+    background-image: url(images/error.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    margin-bottom: 5px;
+}
+
+.mensaje li {
+    width: 600px;
+    margin: auto;
+    background-image: url(images/correcto.png);
+    background-position: 0 0;
+    background-size: 1.8rem 1.8rem;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    font-weight: 500;
+    margin-top: 0;
 }
 
 @media(max-width: 1000px) {
@@ -693,8 +729,17 @@ nav img {
     .formulario select {
         width: 543px;
     }
+    .form {
+        font-size: 20.5px;
+    }
     .carrusel {
         display: none;
+    }
+    .error {
+        font-size: 22px;
+    }
+    .mensaje {
+        font-size: 25px;
     }
 }
 
