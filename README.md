@@ -1,7 +1,9 @@
 BEAR RESTO
+
 Este es el proyecto final de la materia de Programación Web I, un sitio web que presenta un restaurante oriental. El sitio está diseñado para proporcionar información sobre el restaurante, sus menús y su ubicación, y permitir a los usuarios hacer reservaciones en línea.
 
 Contenido
+
 El sitio cuenta con varias secciones, entre ellas:
 
 Inicio: una página de bienvenida que presenta el restaurante, sus valoraciones y su historia, así como algunas de sus características principales.
@@ -10,6 +12,7 @@ Reserva: una página donde los usuarios pueden hacer reservaciones en línea par
 Ubicación: una sección que muestra la ubicación del restaurante en un mapa y proporciona información sobre los horarios.
 
 Tecnologías utilizadas
+
 El sitio web está construido con tecnologías web modernas, incluyendo:
 
 HTML5: para la estructura del sitio y el contenido.
